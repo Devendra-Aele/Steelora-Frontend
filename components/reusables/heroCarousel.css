@@ -1,0 +1,20 @@
+.control-dots {
+  bottom: 0px !important;
+  z-index: 2 !important;
+}
+
+.control-dots .dot.selected {
+  background-color: #e26d38;
+  width: 20px;
+  border-radius: 9999px;
+}
+
+.slide {
+  z-index: 1 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .slide {
+    height: 35vh !important;
+  }
+}

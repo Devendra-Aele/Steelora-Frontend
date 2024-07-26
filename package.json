@@ -1,0 +1,39 @@
+{
+  "name": "steelora",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^14.2.3",
+    "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "gsap": "^3.12.5",
+    "loader-utils": "^3.2.1",
+    "next": "14.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.3",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-select": "^5.8.0",
+    "sharp": "^0.33.4",
+    "swiper": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,14 @@
+.samples_hero {
+  background-image: url(../../public/assets/contactUs/hero1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 3.69%,
+    rgba(0, 0, 0, 0.76) 37.4%,
+    rgba(0, 0, 0, 0.95) 51.85%
+  );
+}

@@ -1,0 +1,20 @@
+.contact_us_hero {
+  background-image: url(../../public/assets/contactUs/hero1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map_section {
+  background-image: url(../../public/assets/contactUs/contactMap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map_section_mobile {
+  background-image: url(../../public/assets/contactUs/mapMobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

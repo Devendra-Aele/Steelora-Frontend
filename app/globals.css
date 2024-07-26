@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #e26d38;
+  color: white;
+}
+::selection {
+  background: #e26d38;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.primary-gradient {
+  background: linear-gradient(135.29deg, #ffc50c -2.25%, #fbac18 98.25%);
+}
+
+.secondary-gradient {
+  background: linear-gradient(136.72deg, #ffc10e -21.14%, #fffefd 131.43%);
+}
+
+.navbar-shadow {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.71) 54.58%,
+    rgba(0, 0, 0, 0) 123.21%
+  );
+}
+
+.primary-button {
+  @apply px-4 py-3 text-white transition rounded hover:bg-orange-700 hover:text-white bg-primary-text lg:py-2 font-Montserrat font-medium capitalize  text-sm lg:text-base leading-5 lg:leading-6;
+}
+
+.section-x-padding {
+  @apply px-4 lg:px-[6.656rem];
+}
+
+.section-y-padding {
+  @apply py-10 lg:py-16;
+}
+.hero-image-shadow {
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 28.97%, rgba(0, 0, 0, 0.7) 58.43%);
+}
+.section-heading {
+  @apply font-RidleyGrotesk  font-medium text-2xl md:text-3xl lg:text-[2.75rem] leading-9 lg:leading-[3.5rem] text-center w-full text-primary-text;
+}
+h1 {
+  @apply font-RidleyGrotesk   font-light text-xl lg:text-5xl leading-6 lg:leading-[62px] text-center;
+}
+/* .h3 {
+  @apply font-RidleyGrotesk    font-light text-3xl leading-[36px]  lg:text-[84px] lg:leading-[108px] text-center;
+  background: linear-gradient(193.39deg, #ffc10e -30.08%, #f8f8f8 76.6%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+/* Define the custom border gradient */
+.border-gradient {
+  border: 1px solid rgba(28, 28, 27, 1);
+}
+
+.para {
+  @apply font-Montserrat font-normal text-sm lg:text-lg leading-5 lg:leading-6  text-black-400;
+}
+
+.category_desc {
+  @apply font-Montserrat font-light text-sm lg:text-lg leading-5 lg:leading-6  text-black-400;
+}
+
+h4 {
+  @apply text-center w-full text-primary-text font-RidleyGrotesk  font-medium text-3xl leading-9 lg:text-[44px] lg:leading-[57px];
+}
+
+.hero-section-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 14.81%,
+    rgba(255, 255, 255, 0.76) 63.14%,
+    rgba(255, 255, 255, 0.95) 81.41%
+  );
+}
+.home-hero-section-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 28.97%,
+    rgba(0, 0, 0, 0.7) 58.43%
+  );
+}
+.home-hero-gradient {
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 28.97%, rgba(0, 0, 0, 0.7) 58.43%);
+}
+.hero-section-title {
+  @apply font-RidleyGrotesk  font-light text-primary-text text-3xl leading-9 text-center lg:text-[2.75rem] lg:leading-[3.5rem];
+}
+
+.hero-section-description {
+  @apply font-Montserrat font-light  text-sm lg:text-base  leading-5 lg:leading-7 text-para-text text-center;
+}
+
+.sub_heading2 {
+  @apply text-primary-text font-RidleyGrotesk  font-medium text-2xl lg:text-3xl lg:leading-10;
+}
+
+.sub_heading3 {
+  @apply text-primary-text font-RidleyGrotesk  font-medium text-2xl lg:text-3xl lg:leading-10;
+}
+.home-para {
+  @apply font-Montserrat font-normal text-xs sm:text-sm lg:text-lg leading-5 lg:leading-6 text-center text-black-400;
+}
+
+.category_card_description {
+  @apply font-Montserrat font-normal text-para-text text-sm lg:text-base text-center;
+}
+
+.product_card_description {
+  @apply font-Montserrat font-normal text-para-text text-sm lg:text-base text-center;
+  .image-border {
+    border: 1px solid #ffffff;
+  }
+}
+/* .h3 {
+  @apply font-FrankRuhlLibre font-light text-3xl lg:leading-[108px] lg:text-[84px] text-center;
+  background: linear-gradient(193.39deg, #ffc10e -30.08%, #f8f8f8 76.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.marque-body {
+  width: 100vw;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.marque {
+  white-space: nowrap;
+
+  animation: marquee 2000s linear infinite;
+}
+
+.marque .marque-elements {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5000%);
+  }
+}
+
+.image-card-border {
+  border: 0.64px solid rgba(255, 255, 255, 1);
+}
+
+.border-stroke {
+  border-style: solid;
+  border-width: 2px;
+  border-image-source: linear-gradient(90deg, #ffc10e -21.14%, #fffefd 131.43%);
+  border-image-slice: 20; /* Adjust this value to control the size of the gradient on the corners */
+}
+
+.text-stroke {
+  background: linear-gradient(193.39deg, #ffc10e -30.08%, #f8f8f8 76.6%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.h3 {
+  @apply font-RidleyGrotesk  font-medium text-3xl lg:leading-[108px] lg:text-[84px] text-center text-black-500;
+}
+
+.control-dots {
+  bottom: 0px !important;
+  z-index: 2 !important;
+}
+
+.control-dots .dot.selected {
+  background-color: #e26d38;
+  width: 20px;
+  border-radius: 9999px;
+}
+
+.slide {
+  z-index: 1 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .slide {
+    height: 35vh !important;
+  }
+}

@@ -1,0 +1,12 @@
+.products_list_hero {
+  background-image: url(../../public/assets/contactUs/hero1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product_details_hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
